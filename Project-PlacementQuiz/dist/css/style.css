@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato";
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+
+}
+.header{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+    
+    background-color: blue;
+    
+}
+.welcome_text{
+    background-color:transparent;
+    width: 400px;
+}
+
+.welcome_form input,
+.welcome_form button{
+    display: block;
+    width: 100%;
+}
+.welcome_form input{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid white;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.welcome_form button{
+    padding: 20px;
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    color: blue;
+    transition: 0.4s all;
+}
+.welcome_form button:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.welcome_form input,
+.welcome_form button{
+    outline: none;
+}
+
+
+
+
+
+.quiz{
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 900px;
+    height: 550px;
+    background-color: white;
+}
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(180, 180, 170);
+}
+.quiz_body{
+    padding: 30px;
+    background-color: rgba(229, 238, 247, 0.486);
+}
+.quiz_user{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.quiz_timer{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 30px;
+    background-color: blue;
+}
+.option_group{
+    list-style-type: none;
+    padding: 30px 0;
+}
+.option{
+    background-color: white;
+    width: 300px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+.option:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+    
+}
+.btn-next{
+    background-color:blue;
+    color:white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.4s all;
+}
+.btn-next:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: none;
+}
+
+.active{
+    background-color: blue;
+    color: white;
+}
+
+.award_icon{
+    font-size: 200px;
+    text-align: center;
+}
+
+.user_name,
+.user_time,
+.user_points{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
